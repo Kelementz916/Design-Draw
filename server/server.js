@@ -15,7 +15,7 @@ const canvasRoutes = require('./routes/canvas');
 
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://canvasdb:3otzrUz8QzvKD5Ci@canvas-project.unblkwj.mongodb.net/?retryWrites=true&w=majority';
+const connectionString = //insert Mongo URI;
 
 mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connected to MongoDB'))
